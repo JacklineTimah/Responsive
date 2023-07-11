@@ -577,8 +577,37 @@
         flex-shrink: 0;
         border-radius: 28px;
         background: #FFF;
+    } 
+    .Combination{
+        display: flex;
+        justify-content: space-between;
+    }
+    .free{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 16px;
+    }
+    .powerful{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 16px;
+    }
+   .powerfful h2{
+        display: flex;
+        width: 540px;
+        height: 41px;
+        flex-direction: column;
+        color: #1F3E5A;
+        font-family: Overpass SemiBold;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: left;
+   }
 
-    }  
 
 
     }
