@@ -1,0 +1,650 @@
+/*Mobile*/
+* {
+    padding: 0;
+    margin: 0;
+    gap: 108px;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Ubuntu' 'overpass' 'sans serif';
+    font-style: normal;
+    font-weight: 400;
+}
+.header {
+    background: #FF3E55;
+    padding-top: 56px;
+    padding-bottom: 150px;;
+    border-radius: 0px 0px 0px 100px; 
+    display: flex; 
+    flex-direction: column;
+}
+.top_container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.desktop-nav{
+    display: none;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 108px
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.Contents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 48px;
+}
+.text_contents{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.text_contents h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: -1.08px;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+
+.text_contents p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.down{
+ display: flex;
+ justify-content: center;
+ gap: 16px;
+}
+
+.Startforfree{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 15px 16px;
+    color: #FF505C;
+}
+
+.LearnMore{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 15px 24px;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+.secondpage{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 100px;
+}
+.top{
+    display: flex;
+    width: 327px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #1F3E5A;
+    text-align: center;
+    font-family: Overpass SemiBold;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.84px;
+}
+.About{
+    display: flex;
+    width: 327px;
+    flex-direction: column;
+    gap: 38px;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+.Paragraphs{
+    flex-direction: column;
+    display: flex;
+    gap: 40px;
+}
+.intro{
+    display: flex;
+    max-width: 318px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    margin: 0 auto;
+    padding: 56px 0 0 0;
+}
+.intro h3{
+    color: #1F3E5A;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    max-width: 318px;
+}
+.intro p{
+    color: #4C5862;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+
+.Robust{
+    display: flex;
+    width: 318px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    padding-bottom: 150px;
+}
+.Robust h2{
+    display: flex;
+    width: 318px;
+    flex-direction: column;
+    color: #1F3E5A;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+.Robust p{
+    color: #4C5862;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+.mobilephones img{
+    max-width: 328px;
+    width: 100%;
+    max-height: 347px;
+    height: 100%;
+}
+
+.group22 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    bottom: 93px;
+    margin: 0 auto;
+    text-align: center;
+}
+.messages h3{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: 'Overpass SemiBold';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+.messages p{
+    display: flex;
+    max-width: 327px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    color: #FFF;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+
+
+.twophones {
+    position: absolute;
+    top: -150px;
+    height: 400px;
+}
+
+
+.group22 img{
+    max-width: 1440px;
+    width: 100%;
+    max-height: 625px;
+    height: 100%;
+}
+
+.laptop {
+    display: flex;
+}
+
+.laptop img{
+    max-width:375px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 83px 0 100px 0 ;
+}
+
+.free{
+    display: flex;
+    max-width: 318px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+    margin: 0 auto;
+}
+ .free h2{
+    color: #1F3E5A;
+    font-size: 28px;
+}
+.free p{
+    color: #4C5862;
+    font-family: 'Overpass';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+.powerful{
+    display: flex;
+    max-width: 318px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+    margin: 0 auto;
+}
+.powerful h2{
+    flex-direction: column;
+    color: #1F3E5A;
+    text-align: center;
+    font-family: 'Overpass SemiBold';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    }
+.powerful p{
+    color: #4C5862;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+.footer{
+    border-radius: 0px 100px 0px 0px;
+    background: #24242C;
+    padding: 75px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+.footer img{
+    max-width: 101px;
+    width: 100%;
+    margin: 0 auto;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.product h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: center;
+    color: #FFF;
+}
+.product li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 21px;
+}
+.company h5{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    gap: 45px;
+}
+.company li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 21px;
+}
+.connect h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.connect li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.product li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.company li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.connect li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+
+
+/*Desktop*/
+@media screen  and (min-width: 900px){ 
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 150px;
+    }
+    .down{
+        border-radius: 28px;
+        gap: 32px; 
+        display: flex;
+        flex-direction: row;
+        margin:0 auto;
+        justify-content: center;
+        gap: 16px;
+           
+    }
+    .Startforfree{
+        color: #FF505C;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        background: #FFF;
+    }
+    .LearnMore{
+        height: 48px;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        margin:0 auto ;
+    }
+    .secondpage{
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+        /* gap: 93px; */
+    }
+    .About{
+        color: #1F3E5A;
+        text-align: center;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.84px;
+        align-items: center;
+    }
+    .desktop-nav{
+        display: flex;
+        justify-content: space-between;
+        z-index: 1;
+        align-items: center;
+    }
+    .nav_items {
+        display: flex;
+        flex-direction: row;
+        gap:32px ;
+    }
+    .nav_items a{
+        text-decoration: none;
+        color: #FFF;
+    }
+    .right-nav{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    
+    }
+    .humburger{
+        display: none;
+    }
+    .button{
+       padding: 15px 40px;
+       color: #FFF;
+        text-align: right;
+        font-family: 'Ubuntu';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 28px;
+        background: #FF7B86;
+    }
+
+    .flexDesktop {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .About img {
+        max-width: 642px;
+        width: 100%;
+    }
+
+    .login{
+        align-items: center;
+        display: flex;
+        color: #FFF;
+        text-align: right;
+        font-size: 16px;
+        font-weight: 700;
+        opacity: 0.75; 
+    }
+    .Contents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+    .text_contents{
+        width: 920px;
+        height: 219px;
+        flex-shrink: 0;
+        
+    }
+    .text_contents h2{
+        display: flex;
+        width: 920px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Overpass SemiBold';
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -1.92px;
+        margin: auto;
+        }
+
+    .text_contents p{
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin: auto;
+    }
+    .down{
+        display: flex;
+        flex-direction: row;
+        flex-shrink: 0;
+        border-radius: 28px;
+        gap: 16px;
+
+    }
+    .Startforfree{
+        width: 137px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        background: #FFF;
+
+    }  
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Desktop/
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .desktop-nav{
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+    }
+    .nav_items {
+        display: flex;
+        flex-direction: row;
+        gap:32px ;
+    }
+    .nav_items a{
+        text-decoration: none;
+        color: #FFF;
+    }
+    .right-nav{
+        display: flex;
+        gap: 518px;
+    }
+    .login{
+        color: #FFF;
+        font-size: 16px;
+        opacity: 0.75;  
+    }
+    .down{
+        width: 137px;
+        height: 48px;
+        border-radius: 28px;
+        background: #FFF;
+        gap: 32px;
+    }
+    .secondpage{
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+    }
+    .About{
+        color: #1F3E5A;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: -1.2px;
+    }
+
+
+
